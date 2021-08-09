@@ -1,5 +1,5 @@
 // const  Discord = require('discord.js')
-const {MessageEmbed, version: djsversion, DiscordAPIError } = require('discord.js');
+const {MessageEmbed, version: djsversion } = require('discord.js');
 const { version } = require('../../package.json')
 const moment = require('moment')
 const os = require('os');
