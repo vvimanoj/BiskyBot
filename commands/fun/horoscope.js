@@ -6,6 +6,9 @@ module.exports = {
     description: 'Get your today\'s horoscope.',
     usage: '[sign]',
     example: 'libra',
+    help:true,
+    guildOnly: true,
+    cooldown: 10,
     async execute(message, args, client, Discord){
         const sign = args[0]
         if (!signs.includes(sign.toLowerCase())){
