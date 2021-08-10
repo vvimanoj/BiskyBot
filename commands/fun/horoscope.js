@@ -7,6 +7,7 @@ module.exports = {
     usage: '[sign]',
     example: 'libra',
     help:true,
+    args: true,
     guildOnly: true,
     cooldown: 10,
     async execute(message, args, client, Discord){
