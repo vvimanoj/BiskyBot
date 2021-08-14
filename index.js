@@ -8,6 +8,7 @@ const profileModel = require('./models/profileSchema')
 
 client.commands = new Discord.Collection();
 client.cooldowns = new Discord.Collection()
+client.snipes = new Discord.Collection();
 
 const eventFiles = fs.readdirSync('./events').filter(file => file.endsWith('.js'));
 
