@@ -22,7 +22,7 @@ module.exports = {
         // .addField('Servers', client.guilds.cache.size.toLocaleString())
         // .addField('Users', `${this.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}`)
         // .addField('Channels', this.client.channels.cache.size.toLocaleString())
-        .addField('Creator', '暗い Draken#3627', true)
+        .addField('Creator', 'Arsène#9200', true)
         .addField('Created on', `6th July 2021`, true)
         .addField('Version', `v${version}`, true)
         .addField('Node.js', `${process.version}`,true)
